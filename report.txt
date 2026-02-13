@@ -1,0 +1,37 @@
+Parameter,Details
+1. Title & Year,Green Software Engineering: A Study on Energy-Efficient Design and Deployment in Cloud Infrastructure (2025) +1
+2. Key Contribution,Provides a comprehensive review of energy-efficient design and deployment strategies within cloud infrastructure. It highlights how Green Software Engineering (GSE) practices—like algorithm optimization and code efficiency—can reduce carbon footprints and extend hardware longevity.+2
+3. Methodology,"A structured literature search strategy was followed across databases including IEEE Xplore, ScienceDirect, SpringerLink, and Google Scholar. The search spanned publications from 2015 to 2024, focusing on empirical evidence and optimization models.+1"
+4. Tools & Technologies,"Virtualization (VMs), containerization (Docker, Kubernetes), auto-scaling, ARM-based processors, Solid-State Drives (SSDs), and advanced cooling (liquid and free-air cooling).+4"
+5. Performance Metrics,"Power Usage Effectiveness (PUE), which is the ratio of total facility energy to IT equipment energy. Other metrics include CPU power usage and hardware write cycles.+2"
+6. Challenges & Limitations,"Lack of developer expertise in green design, technical complexity of optimizing complex cloud applications, financial barriers (high upfront costs), and a lack of industry-standard metrics for measuring software energy consumption.+3"
+7. Future Research,"Development of AI-driven optimization algorithms, integration of GSE with edge computing, creating low-power algorithms for small devices, and establishing standardized benchmarking frameworks for cloud energy efficiency.+3"
+
+Parameter,Details
+1. Title & Year,Temperature-Aware Task Scheduling in Mobile Systems: A Survey of Algorithms and Hardware Solutions (2025)
+2. Key Contribution,"Provides a rigorous survey of both algorithmic and hardware-level approaches to thermal-aware scheduling. It classifies strategies into static/dynamic, reactive/proactive, and real-time scheduling to optimize performance while maintaining thermal safety."
+3. Methodology,"A survey-based research approach that reviews existing research, transforming trends, and real-life application settings. It includes a comparative analysis of recent literature (2021–2025) focused on mobile and embedded processors."
+4. Tools & Technologies,"Hardware: Dynamic Voltage and Frequency Scaling (DVFS), thermal sensors, thermal throttling, ring oscillators (as thermometers), and active/passive cooling (PCMs).  Software/Models: Hotspot (thermal modeling tool), Earliest Deadline First (EDF), Rate Monotonic (RM), and Earthworm Optimization Algorithm (EOA)."
+5. Performance Metrics,"System Metrics: Total completion time (makespan), turnaround time, throughput, response time, and workload balancing.  Thermal/Energy Metrics: Peak temperature, average temperature, and energy consumption rates."
+6. Challenges & Limitations,Complexity: Growing demand for performance in compact devices leads to excessive heat.  Overhead: High performance hit from migration policies and secure execution environments.  Generalizability: Most approaches are platform-specific and lack broad applicability.
+7. Future Research,"Integration of AI and Machine Learning for real-time thermal event prediction; expanding scope to Edge AI devices, wearables, and automotive systems; and improving energy models for next-generation batteries."
+
+Parameter,Details
+1. Title & Year,EOA: Energy and Temperature Aware Scheduling in Cloud-Fog Computing Environment (2025)
+2. Key Contribution,Introduces a novel Earthworm Optimization Algorithm (EOA) that concurrently optimizes energy usage and temperature regulation in hybrid Cloud-Fog environments. It bridges the gap by selecting energy-efficient nodes and avoiding thermal hotspots simultaneously.
+3. Methodology,A nature-inspired metaheuristic approach mimicking the foraging behavior of earthworms to balance exploration (searching for nutrients) and exploitation (refining positions). Validated through extensive simulations using the CloudSim simulator with the CEA-Curie dataset.
+4. Tools & Technologies,"Algorithm: Earthworm Optimization Algorithm (EOA).  Architecture: Cloud-Fog hybrid (End devices, Fog Broker, Cloud Broker, EOA Scheduler).  Evaluation: CloudSim simulator and real-world workload traces (Curie supercomputing facility)."
+5. Performance Metrics,"Total Energy Consumption (Etotal​), Temperature Variation (Tvar​) (difference between max and average node temperature), Task Completion Time (Makespan - Cmax​), and Resource Utilization (Utotal​)."
+6. Challenges & Limitations,"Computational Complexity: Attraction-repulsion mechanisms add a quadratic complexity term (O(P2)), which can impact scalability for very large populations.  Static Weights: The objective function relies on manually assigned weights (w1​ to w4​) to prioritize system goals."
+7. Future Research,"Integrating EOA with machine learning models to predict future workload patterns, incorporating fault-tolerance mechanisms, and exploring applicability in multi-cloud and Internet of Things (IoT) environments."
+                                                                                                                              
+Parameter,Details
+1. Title & Year,Thermal-Aware Resource Management for Green Cloud and Edge Infrastructures (2025) +1
+2. Key Contribution,"Proposes a thermal-conscious resource management framework that integrates predictive thermal modeling, multi-objective scheduling, and adaptive control into a single orchestration strategy to reduce hotspots and operational costs.+1"
+3. Methodology,"Utilizes hybrid RC-based thermal models combined with online learning calibrated by real-time telemetry (sensors, fan RPM, etc.). Validated using a hybrid testbed with real-time workload traces and thermal telemetry.+3"
+4. Tools & Technologies,"Hardware: Intel Xeon servers, NVIDIA Jetson AGX Xavier edge devices, and rack-mounted cooling units. +1 Software: stress-ng and YCSB for workload generation, hybrid RC models for forecasting, and DVFS and selective migration for control.+1"
+5. Performance Metrics,"Peak Temperature reduction, Cooling Power consumption (kW), Workload Latency, IT Energy usage (W), Long-term Reliability (%), and a multi-objective Cost Function.+2"
+6. Challenges & Limitations,"Responsiveness vs. Stability: Sensitivity to sensor noise can lead to migration oscillations, while a lack of sensitivity results in thermal violations.  Edge Constraints: Restricted airflow in dense edge enclosures causes fast thermal excursions."
+7. Future Research,"Enhancing prediction accuracy via adaptive model learning, integrating renewable-energy-aware scheduling, and expanding applicability to heterogeneous AI-intensive accelerators."
+                                                                                                                              
+                                                                                                                              
