@@ -1,5 +1,5 @@
 Parameter,Details
-1. Title & Year,Green Software Engineering: A Study on Energy-Efficient Design and Deployment in Cloud Infrastructure (2025) +1
+1. Title & Year,Green Software Engineering: A Study on Energy-Efficient Design and Deployment in Cloud Infrastructure (2025)
 2. Key Contribution,Provides a comprehensive review of energy-efficient design and deployment strategies within cloud infrastructure. It highlights how Green Software Engineering (GSE) practices—like algorithm optimization and code efficiency—can reduce carbon footprints and extend hardware longevity.+2
 3. Methodology,"A structured literature search strategy was followed across databases including IEEE Xplore, ScienceDirect, SpringerLink, and Google Scholar. The search spanned publications from 2015 to 2024, focusing on empirical evidence and optimization models.+1"
 4. Tools & Technologies,"Virtualization (VMs), containerization (Docker, Kubernetes), auto-scaling, ARM-based processors, Solid-State Drives (SSDs), and advanced cooling (liquid and free-air cooling).+4"
